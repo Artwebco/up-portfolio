@@ -1,0 +1,18 @@
+#cp_screenshots_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cp-screenshot {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #fafafa;
+    cursor: move;
+}
+.cp-screenshot-placeholder {
+    background: #e0e0e0;
+    border: 2px dashed #999;
+    width: 150px;
+    height: 100px;
+}
