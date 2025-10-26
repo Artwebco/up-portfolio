@@ -19,3 +19,5 @@ if (is_admin()) {
 
 // Frontend files
 require_once plugin_dir_path(__FILE__) . 'includes/frontend.php';
+
+require_once plugin_dir_path(__FILE__) . 'includes/scripts.php';
